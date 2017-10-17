@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Gerador de tabuadas</title>
+    <meta charset="utf-8">
+    <!-- Última versão CSS compilada e minificada -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+  <!-- Última versão JavaScript compilada e minificada -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+  <style>
+    body{
+      text-align: center;
+    }    
+  </style>
+</head>
+<body>
+<br>
+  <div class="container">
+    <h2>Gerador de tabuadas</h2>
+    <form class=" " method="post" action="saida.php">
+      <div class="form-group">
+       <label>Criar tabuadas a partir do número:</label>
+        <div class="form-inline">
+          <input type="number" class="form-control" placeholder="1" name="de" required="">
+          <label>Até</label>
+          <input type="number" class="form-control" placeholder="10" name="ate" required="">
+        </div>
+      </div>
+
+      <div class="form-group">
+       <label>Multiplicar os números de:</label>
+        <div class="form-inline">
+          <input type="number" class="form-control" placeholder="1" name="multde" required="">
+          <label>Até</label>
+          <input type="number" class="form-control" placeholder="10" name="multate" required="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div>
+          <button type="submit" class="btn btn-primary">Gerar a tabuada de multiplicação!</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
